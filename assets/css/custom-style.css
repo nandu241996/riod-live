@@ -2,3 +2,19 @@
     max-width: 88% !important;
 }
 
+.custom-back-btn {
+    width: 60px;
+    height: 40px;
+    background-color: #2782f9;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.tp-bullets{
+    top: 88% !important;
+}
