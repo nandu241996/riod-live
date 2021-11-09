@@ -999,6 +999,7 @@ select:visited {
 
 .pr3-about-section {
 	padding: 20px 0;
+	padding-top: 0px;
 	position: relative;
 }
 
