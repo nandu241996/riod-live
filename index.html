@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="assets/css/slick.css">
         <link rel="stylesheet" href="assets/css/business-1.css">
         <link rel="stylesheet" href="assets/css/business-2.css">
+        <link rel="stylesheet" href="assets/css/custom-style.css">
     </head>
 
     <body class="pr3-body" data-spy="scroll" data-target=".pr3-navigation-menu" data-offset="80">
@@ -189,9 +190,9 @@
 
         <!-- Home section -->
         <section id="sb-home">
-                <!-- Hero Slider -->
-                <p class="rs-p-wp-fix"></p>
-                <rs-module-wrap id="rev_slider_32_1_wrapper" data-alias="saasio-1-slider-1" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+            <!-- Hero Slider -->
+            <p class="rs-p-wp-fix"></p>
+            <rs-module-wrap id="rev_slider_32_1_wrapper" data-alias="saasio-1-slider-1" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
                     <rs-module id="rev_slider_32_1" data-version="6.4.6">
                         <rs-slides>
                             <rs-slide data-key="rs-95" data-title="saasio" data-thumb="assets/bg-50x100.png" data-filter="e:late2;g:100;" data-in="o:0;e:power1.in;" data-out="a:false;">
@@ -248,6 +249,7 @@
 
                         <rs-layer
                         id="slider-32-slide-95-layer-9" 
+                        class="slider-32-slide-95-layer-9" 
                         data-type="text"
                         data-color="#010148"
                         data-rsp_ch="on"
@@ -267,11 +269,11 @@
                     </rs-layer>
 
                     <rs-layer
-                    id="slider-32-slide-95-layer-11" 
+                    class="slider-32-slide-95-layer-11 custom-slider-desc" 
                     data-type="text"
                     data-color="#010148"
                     data-rsp_ch="on"
-                    data-xy="y:245px;"
+                    data-xy="y:180px;"
                     data-text="w:normal;l:30;"
                     data-dim="w:696px;"
                     data-frame_0="y:-100%;"
@@ -280,7 +282,9 @@
                     data-frame_1_mask="u:t;"
                     data-frame_999="o:0;st:w;"
                     style="z-index:10;font-family:Roboto;font-weight:500;"
-                    >Achieve precision farming with our smart integrated systems to sense, monitor and control farms, livestock and produce. Also visualise these data through our portals.
+                    >
+                    Achieve precision farming with our smart integrated systems to sense, monitor and control farms, livestock and produce. 
+                    Also visualise these data through our portals. 
                 </rs-layer>
             </rs-group>
 
@@ -391,10 +395,11 @@
 
     <rs-layer
     id="slider-32-slide-96-layer-11" 
+    class="custom-slider-desc"
     data-type="text"
     data-color="#010148"
     data-rsp_ch="on"
-    data-xy="y:245px;"
+    data-xy="y:180px;"
     data-text="w:normal;l:30;"
     data-dim="w:696px;"
     data-frame_0="y:-100%;"
@@ -516,10 +521,11 @@
 
     <rs-layer
     id="slider-32-slide-97-layer-11" 
+    class="custom-slider-desc"
     data-type="text"
     data-color="#010148"
     data-rsp_ch="on"
-    data-xy="y:245px;"
+    data-xy="y:180px;"
     data-text="w:normal;l:30;"
     data-dim="w:696px;"
     data-frame_0="y:-100%;"
@@ -619,7 +625,7 @@
     </rs-layer>
 
     <rs-layer
-    id="slider-32-slide-95-layer-9" 
+    class="slider-32-slide-95-layer-9" 
     data-type="text"
     data-color="#010148"
     data-rsp_ch="on"
@@ -640,11 +646,11 @@
     </rs-layer>
 
     <rs-layer
-    id="slider-32-slide-95-layer-11" 
+    class="slider-32-slide-95-layer-11 custom-slider-desc" 
     data-type="text"
     data-color="#010148"
     data-rsp_ch="on"
-    data-xy="y:245px;"
+    data-xy="y:180px;"
     data-text="w:normal;l:30;"
     data-dim="w:696px;"
     data-frame_0="y:-100%;"
@@ -743,7 +749,7 @@
     </rs-layer>
 
     <rs-layer
-    id="slider-32-slide-95-layer-9" 
+    class="slider-32-slide-95-layer-9" 
     data-type="text"
     data-color="#010148"
     data-rsp_ch="on"
@@ -763,11 +769,11 @@
     </rs-layer>
 
     <rs-layer
-    id="slider-32-slide-95-layer-11" 
+    class="slider-32-slide-95-layer-11 custom-slider-desc" 
     data-type="text"
     data-color="#010148"
     data-rsp_ch="on"
-    data-xy="y:245px;"
+    data-xy="y:180px;"
     data-text="w:normal;l:30;"
     data-dim="w:696px;"
     data-frame_0="y:-100%;"
@@ -816,8 +822,8 @@
 
     </rs-slides>
     </rs-module>
-    </rs-module-wrap>
-    <!-- END REVOLUTION SLIDER -->
+            </rs-module-wrap>
+            <!-- END REVOLUTION SLIDER -->
         </section>
         <!-- Home section end -->
 
@@ -1070,102 +1076,6 @@
         </section>
         <!-- End Portfolio Section -->
 
-        
-
-        <!-- Pricing Section -->
-        <!-- <section id="sb-pricing" class="pr3-pricing-section">
-            <span class="pr3-object-1"><img src="assets/img/business-2/pricing/object-1.png" alt=""></span>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 offset-lg-3">
-                        <div class="pr3-title-area text-center wow fadeInUp">
-                            <span>Pricing Plan</span>
-                            <div class="pr3-headline">
-                                <h3>Our Awesome pricing</h3>
-                            </div>
-                            <div class="pr3-pera-txt">
-                                <p>suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan gravida lacus vel facilisis. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pr3-pricing-contents">
-                    <span class="pr3-object-2"><img src="assets/img/business-2/pricing/object-2.png" alt=""></span>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="pr3-pricing-column wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="pr3-headline">
-                                    <h4>Basic Plan</h4>
-                                    <h3>59$/<span>Month</span></h3>
-                                </div>
-                                <div class="pr3-icon-wrapper">
-                                    <i class="flaticon-cloud-storage"></i>
-                                </div>
-                                <div class="pr3-pricing-features">
-                                    <ul>
-                                        <li>30 days trial features</li>
-                                        <li>Synced to cloud database</li>
-                                        <li>10 Hours of support</li>
-                                        <li>Social Media integration</li>
-                                        <li>Unlimited features</li>
-                                    </ul>
-                                </div>
-                                <div class="pr3-pricing-btn">
-                                    <a href="#">Choose plan</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="pr3-pricing-column wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="pr3-headline">
-                                    <h4>Basic Plan</h4>
-                                    <h3>59$/<span>Month</span></h3>
-                                </div>
-                                <div class="pr3-icon-wrapper color-2">
-                                    <i class="flaticon-cloud-server"></i>
-                                </div>
-                                <div class="pr3-pricing-features">
-                                    <ul>
-                                        <li>30 days trial features</li>
-                                        <li>Synced to cloud database</li>
-                                        <li>10 Hours of support</li>
-                                        <li>Social Media integration</li>
-                                        <li>Unlimited features</li>
-                                    </ul>
-                                </div>
-                                <div class="pr3-pricing-btn active">
-                                    <a href="#">Choose plan</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="pr3-pricing-column wow fadeInUp" data-wow-delay="0.6s">
-                                <div class="pr3-headline">
-                                    <h4>Basic Plan</h4>
-                                    <h3>59$/<span>Month</span></h3>
-                                </div>
-                                <div class="pr3-icon-wrapper color-3">
-                                    <i class="flaticon-database"></i>
-                                </div>
-                                <div class="pr3-pricing-features">
-                                    <ul>
-                                        <li>30 days trial features</li>
-                                        <li>Synced to cloud database</li>
-                                        <li>10 Hours of support</li>
-                                        <li>Social Media integration</li>
-                                        <li>Unlimited features</li>
-                                    </ul>
-                                </div>
-                                <div class="pr3-pricing-btn">
-                                    <a href="#">Choose plan</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- End Pricing Section -->
 
         <!-- Testimonial Section -->
         <section id="sb-testimonial" class="pr3-testimonial-section" data-background="assets/img/business-2/map.jpg">
