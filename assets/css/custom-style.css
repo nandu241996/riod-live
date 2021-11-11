@@ -53,7 +53,10 @@
 }
 
 .solution-desc{
-    border-right: solid;
     text-align: justify;
     padding-right: 8%;
+}
+
+.br-solid{
+    border-right: solid;
 }
