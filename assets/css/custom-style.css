@@ -51,3 +51,9 @@
 .rs_splitted_chars{
     color: #2484A1 !important;
 }
+
+.solution-desc{
+    border-right: solid;
+    text-align: justify;
+    padding-right: 8%;
+}
