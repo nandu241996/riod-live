@@ -1,11 +1,32 @@
 .custom-slider-desc{
     max-width: 75% !important;
+    color: #17495c !important;
+}
+
+.slider-main-btn{
+    background: linear-gradient(130deg, #2484A1 0%, #7DB7D7 100%) !important;
+    border-color: #2484A1 !important;
+}
+
+.slider-main-btn:hover{
+    border-color: #2484A1 !important;
+    color: #17495c
+}
+
+.slider-secondary-btn{
+    border-color: #2484A1 !important;
+    color: #17495c !important;
+}
+
+.slider-secondary-btn:hover{
+    background: linear-gradient(130deg, #2484A1 0%, #7DB7D7 100%) !important;
+    border-color: #2484A1 !important;
 }
 
 .custom-back-btn {
     width: 60px;
     height: 40px;
-    background-color: #2782f9;
+    background-color: #1385b3;
     color: #ffffff;
     display: inline-block;
     line-height: 40px;
@@ -21,4 +42,12 @@
 
 .bw-full{
     width: 100% !important;
+}
+
+.riod-small-font-color{
+    color: #17495c;
+}
+
+.rs_splitted_chars{
+    color: #2484A1 !important;
 }
