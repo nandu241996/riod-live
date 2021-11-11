@@ -60,3 +60,15 @@
 .br-solid{
     border-right: solid;
 }
+
+.btn-primary {
+    color: #fff;
+    /* background: linear-gradient(130deg, #2484A1 0%, #7DB7D7 100%) !important; */
+    background: #2484A1 !important;
+    border-color: #2484A1 !important;
+}
+
+.btn-primary:hover{
+    border-color: #2484A1 !important;
+    color: #17495c
+}
