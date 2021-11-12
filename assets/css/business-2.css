@@ -1054,9 +1054,9 @@ select:visited {
 .pr3-about-right .pr3-about-list .pr3-icon-wrapper i {
 	width: 60px;
 	height: 60px;
-	background-image: -webkit-linear-gradient(126deg, #ff5728 0%, #ffc587 100%, #ffd328 100%);
-	background-image: -o-linear-gradient(126deg, #ff5728 0%, #ffc587 100%, #ffd328 100%);
-	background-image: linear-gradient(324deg, #ff5728 0%, #ffc587 100%, #ffd328 100%);
+	background-image: -webkit-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: -o-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: linear-gradient(-25deg, #2484A1 0%, #7DB7D7 100%);
 	font-size: 36px;
 	border-radius: 10px;
 	color: #ffffff;
@@ -1072,9 +1072,9 @@ select:visited {
 }
 
 .pr3-about-right .pr3-about-list .pr3-icon-wrapper.color-2 i {
-	background-image: -webkit-linear-gradient(126deg, #ff4a9f 0%, #ffceec 100%);
-	background-image: -o-linear-gradient(126deg, #ff4a9f 0%, #ffceec 100%);
-	background-image: linear-gradient(324deg, #ff4a9f 0%, #ffceec 100%);
+	background-image: -webkit-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: -o-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: linear-gradient(-25deg, #2484A1 0%, #7DB7D7 100%);
 }
 
 .pr3-about-right .pr3-about-list .pr3-headline {
@@ -1184,9 +1184,9 @@ select:visited {
 .pr3-service-content .pr3-service-column .pr3-icon-wrapper i {
 	width: 60px;
 	height: 60px;
-	background-image: -webkit-linear-gradient(115deg, #01ce92 0%, #58ff83 100%);
-	background-image: -o-linear-gradient(115deg, #01ce92 0%, #58ff83 100%);
-	background-image: linear-gradient(-25deg, #01ce92 0%, #58ff83 100%);
+	background-image: -webkit-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: -o-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: linear-gradient(-25deg, #2484A1 0%, #7DB7D7 100%);
 	font-size: 36px;
 	border-radius: 10px;
 	display: -webkit-inline-box;
@@ -1223,9 +1223,9 @@ select:visited {
 }
 
 .pr3-service-content .pr3-service-column.color-2 .pr3-icon-wrapper i {
-	background-image: -webkit-linear-gradient(115deg, #ff5728 0%, #ffc587 100%, #ffd328 100%);
-	background-image: -o-linear-gradient(115deg, #ff5728 0%, #ffc587 100%, #ffd328 100%);
-	background-image: linear-gradient(-25deg, #ff5728 0%, #ffc587 100%, #ffd328 100%);
+	background-image: -webkit-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: -o-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: linear-gradient(-25deg, #2484A1 0%, #7DB7D7 100%);
 }
 
 .pr3-service-content .pr3-service-column.color-2 a {
@@ -1233,9 +1233,9 @@ select:visited {
 }
 
 .pr3-service-content .pr3-service-column.color-3 .pr3-icon-wrapper i {
-	background-image: -webkit-linear-gradient(115deg, #8a6eff 4%, #b9a1ff 78%);
-	background-image: -o-linear-gradient(115deg, #8a6eff 4%, #b9a1ff 78%);
-	background-image: linear-gradient(-25deg, #8a6eff 4%, #b9a1ff 78%);
+	background-image: -webkit-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: -o-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: linear-gradient(-25deg, #2484A1 0%, #7DB7D7 100%);
 }
 
 .pr3-service-content .pr3-service-column.color-3 a {
@@ -1243,9 +1243,9 @@ select:visited {
 }
 
 .pr3-service-content .pr3-service-column.color-4 .pr3-icon-wrapper i {
-	background-image: -webkit-linear-gradient(115deg, #ff4a9f 0%, #ffceec 100%);
-	background-image: -o-linear-gradient(115deg, #ff4a9f 0%, #ffceec 100%);
-	background-image: linear-gradient(-25deg, #ff4a9f 0%, #ffceec 100%);
+	background-image: -webkit-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: -o-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: linear-gradient(-25deg, #2484A1 0%, #7DB7D7 100%);
 }
 
 .pr3-service-content .pr3-service-column.color-4 a {
@@ -1253,9 +1253,9 @@ select:visited {
 }
 
 .pr3-service-content .pr3-service-column.color-5 .pr3-icon-wrapper i {
-	background-image: -webkit-linear-gradient(115deg, #2899ff 11%, #a9e0ff 100%, #ffc587 100%);
-	background-image: -o-linear-gradient(115deg, #2899ff 11%, #a9e0ff 100%, #ffc587 100%);
-	background-image: linear-gradient(-25deg, #2899ff 11%, #a9e0ff 100%, #ffc587 100%);
+	background-image: -webkit-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: -o-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: linear-gradient(-25deg, #2484A1 0%, #7DB7D7 100%);
 }
 
 .pr3-service-content .pr3-service-column.color-5 a {
@@ -1263,9 +1263,9 @@ select:visited {
 }
 
 .pr3-service-content .pr3-service-column.color-6 .pr3-icon-wrapper i {
-	background-image: -webkit-linear-gradient(115deg, #ff9f65 0%, #ffe2aa 100%);
-	background-image: -o-linear-gradient(115deg, #ff9f65 0%, #ffe2aa 100%);
-	background-image: linear-gradient(-25deg, #ff9f65 0%, #ffe2aa 100%);
+	background-image: -webkit-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: -o-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: linear-gradient(-25deg, #2484A1 0%, #7DB7D7 100%);
 }
 
 .pr3-service-content .pr3-service-column.color-6 a {
@@ -1653,9 +1653,9 @@ select:visited {
 .pr3-workflow-list .pr3-workflow-item .pr3-icon-wrapper i {
 	width: 70px;
 	height: 70px;
-	background-image: -webkit-linear-gradient(115deg, #ff4a9f 0%, #ffceec 100%);
-	background-image: -o-linear-gradient(115deg, #ff4a9f 0%, #ffceec 100%);
-	background-image: linear-gradient(-25deg, #ff4a9f 0%, #ffceec 100%);
+	background-image: -webkit-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: -o-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: linear-gradient(-25deg, #2484A1 0%, #7DB7D7 100%);
 	display: -webkit-inline-box;
 	display: -ms-inline-flexbox;
 	display: inline-flex;
@@ -1675,15 +1675,15 @@ select:visited {
 }
 
 .pr3-workflow-list .pr3-workflow-item.color-2 .pr3-icon-wrapper i {
-	background-image: -webkit-linear-gradient(115deg, #8a6eff 4%, #b9a1ff 78%);
-	background-image: -o-linear-gradient(115deg, #8a6eff 4%, #b9a1ff 78%);
-	background-image: linear-gradient(-25deg, #8a6eff 4%, #b9a1ff 78%);
+	background-image: -webkit-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: -o-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: linear-gradient(-25deg, #2484A1 0%, #7DB7D7 100%);
 }
 
 .pr3-workflow-list .pr3-workflow-item.color-3 .pr3-icon-wrapper i {
-	background-image: -webkit-linear-gradient(115deg, #01ce92 0%, #58ff83 100%);
-	background-image: -o-linear-gradient(115deg, #01ce92 0%, #58ff83 100%);
-	background-image: linear-gradient(-25deg, #01ce92 0%, #58ff83 100%);
+	background-image: -webkit-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: -o-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: linear-gradient(-25deg, #2484A1 0%, #7DB7D7 100%);
 }
 
 @media (max-width: 991.98px) {
@@ -1776,9 +1776,9 @@ select:visited {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
-	background-image: -webkit-linear-gradient(115deg, #ff4a9f 0%, #ffceec 100%);
-	background-image: -o-linear-gradient(115deg, #ff4a9f 0%, #ffceec 100%);
-	background-image: linear-gradient(-25deg, #ff4a9f 0%, #ffceec 100%);
+	background-image: -webkit-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: -o-linear-gradient(115deg, #2484A1 0%, #7DB7D7 100%);
+	background-image: linear-gradient(-25deg, #2484A1 0%, #7DB7D7 100%);
 	color: #ffffff;
 	font-size: 48px;
 }
