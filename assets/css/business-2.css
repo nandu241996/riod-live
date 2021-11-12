@@ -2135,17 +2135,17 @@ select:visited {
 	height: 0;
 	border-top: 15px solid transparent;
 	border-bottom: 15px solid transparent;
-	border-left: 20px solid #ff4a9f;
+	border-left: 20px solid #2484A1;
 	opacity: 0.9;
 }
 
 .pr3-work-content .pr3-work-column .pr3-wk-column-top .wk-column-left .icon-wrapper {
 	width: 80px;
 	height: 80px;
-	background-image: -webkit-gradient(linear, right top, left top, from(#ff4a9f), to(#ffceec));
-	background-image: -webkit-linear-gradient(right, #ff4a9f 0%, #ffceec 100%);
-	background-image: -o-linear-gradient(right, #ff4a9f 0%, #ffceec 100%);
-	background-image: linear-gradient(270deg, #ff4a9f 0%, #ffceec 100%);
+	background-image: -webkit-gradient(linear, right top, left top, from(#2484A1), to(#7DB7D7));
+	background-image: -webkit-linear-gradient(right, #2484A1 0%, #7DB7D7 100%);
+	background-image: -o-linear-gradient(right, #2484A1 0%, #7DB7D7 100%);
+	background-image: linear-gradient(270deg, #2484A1 0%, #7DB7D7 100%);
 	border-radius: 50%;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -2175,7 +2175,8 @@ select:visited {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	color: #ff4a9f;
+	color: #2484A1;
+	
 }
 
 .pr3-work-content .pr3-work-column .pr3-wk-column-top .wk-column-right {
@@ -2214,56 +2215,56 @@ select:visited {
 }
 
 .pr3-work-content .pr3-work-column.color-2 .wk-column-left::after {
-	border-left: 20px solid #ff5728;
+	border-left: 20px solid #2484A1;
 }
 
 .pr3-work-content .pr3-work-column.color-2 .wk-column-left .icon-wrapper {
-	background-image: -webkit-gradient(linear, right top, left top, from(#ff5728), color-stop(100%, #ffc587), to(#ffd328));
-	background-image: -webkit-linear-gradient(right, #ff5728 0%, #ffc587 100%, #ffd328 100%);
-	background-image: -o-linear-gradient(right, #ff5728 0%, #ffc587 100%, #ffd328 100%);
-	background-image: linear-gradient(270deg, #ff5728 0%, #ffc587 100%, #ffd328 100%);
+	background-image: -webkit-gradient(linear, right top, left top, from(#2484A1), color-stop(100%, #7DB7D7), to(#7DB7D7));
+	background-image: -webkit-linear-gradient(right, #2484A1 0%, #7DB7D7 100%, #7DB7D7 100%);
+	background-image: -o-linear-gradient(right, #2484A1 0%, #7DB7D7 100%, #7DB7D7 100%);
+	background-image: linear-gradient(270deg, #2484A1 0%, #7DB7D7 100%, #7DB7D7 100%);
 }
 
 .pr3-work-content .pr3-work-column.color-2 .wk-column-left .icon-wrapper i {
-	color: #ff5728;
+	color: #2484A1;
 }
 
 .pr3-work-content .pr3-work-column.color-2 .wk-column-right h4::after {
-	border-bottom: 2px dashed #ff5728;
+	border-bottom: 2px dashed #2484A1;
 }
 
 .pr3-work-content .pr3-work-column.color-3 .wk-column-left::after {
-	border-left: 20px solid #2899ff;
+	border-left: 20px solid #2484A1;
 }
 
 .pr3-work-content .pr3-work-column.color-3 .wk-column-left .icon-wrapper {
-	background-image: -webkit-gradient(linear, right top, left top, color-stop(11%, #2899ff), color-stop(100%, #a9e0ff), to(#ffc587));
-	background-image: -webkit-linear-gradient(right, #2899ff 11%, #a9e0ff 100%, #ffc587 100%);
-	background-image: -o-linear-gradient(right, #2899ff 11%, #a9e0ff 100%, #ffc587 100%);
-	background-image: linear-gradient(270deg, #2899ff 11%, #a9e0ff 100%, #ffc587 100%);
+	background-image: -webkit-gradient(linear, right top, left top, color-stop(11%, #2484A1), color-stop(100%, #7DB7D7), to(#7DB7D7));
+	background-image: -webkit-linear-gradient(right, #2484A1 11%, #7DB7D7 100%, #7DB7D7 100%);
+	background-image: -o-linear-gradient(right, #2484A1 11%, #7DB7D7 100%, #7DB7D7 100%);
+	background-image: linear-gradient(270deg, #2484A1 11%, #7DB7D7 100%, #7DB7D7 100%);
 }
 
 .pr3-work-content .pr3-work-column.color-3 .wk-column-left .icon-wrapper i {
-	color: #2899ff;
+	color: #2484A1;
 }
 
 .pr3-work-content .pr3-work-column.color-3 .wk-column-right h4::after {
-	border-bottom: 2px dashed #2899ff;
+	border-bottom: 2px dashed #2484A1;
 }
 
 .pr3-work-content .pr3-work-column.color-4 .wk-column-left::after {
-	border-left: 20px solid #01ce92;
+	border-left: 20px solid #2484A1;
 }
 
 .pr3-work-content .pr3-work-column.color-4 .wk-column-left .icon-wrapper {
-	background-image: -webkit-gradient(linear, right top, left top, from(#01ce92), to(#58ff83));
-	background-image: -webkit-linear-gradient(right, #01ce92 0%, #58ff83 100%);
-	background-image: -o-linear-gradient(right, #01ce92 0%, #58ff83 100%);
-	background-image: linear-gradient(270deg, #01ce92 0%, #58ff83 100%);
+	background-image: -webkit-gradient(linear, right top, left top, from(#2484A1), to(#7DB7D7));
+	background-image: -webkit-linear-gradient(right, #2484A1 0%, #7DB7D7 100%);
+	background-image: -o-linear-gradient(right, #2484A1 0%, #7DB7D7 100%);
+	background-image: linear-gradient(270deg, #2484A1 0%, #7DB7D7 100%);
 }
 
 .pr3-work-content .pr3-work-column.color-4 .wk-column-left .icon-wrapper i {
-	color: #01ce92;
+	color: #2484A1;
 }
 
 .pr3-work-content .pr3-work-column.color-4 .wk-column-right h4::after {
