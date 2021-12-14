@@ -382,7 +382,7 @@ select:visited {
 
 .pr3-primary-btn a:hover {
 	color: #106381;
-	border-color: #497efd;
+	border-color: #2484A1;
 }
 
 .pr3-primary-btn a:hover::after {
@@ -480,7 +480,7 @@ select:visited {
 }
 
 .pr3-header-section .pr3-info-bar-container .pr3-info-bar-right a:hover {
-	color: #497efd;
+	color: #2484A1;
 }
 
 .pr3-header-section .pr3-info-bar-container .pr3-info-bar-right a+a {
@@ -498,7 +498,7 @@ select:visited {
 	transform: translateY(-50%);
 	width: 1px;
 	height: 20px;
-	background-color: #497efd;
+	background-color: #2484A1;
 	z-index: 2;
 }
 
@@ -598,7 +598,7 @@ select:visited {
 }
 
 .pr3-navigation-menu ul li ul li a:hover {
-	background-color: #497efd;
+	background-color: #2484A1;
 	color: #ffffff;
 	padding-left: 15px;
 }
@@ -1819,7 +1819,7 @@ select:visited {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	border: 2px solid #497efd;
+	border: 2px solid #2484A1;
 	color: #106381;
 	font-family: "Lexend", sans-serif;
 	font-weight: 600;
@@ -1907,7 +1907,7 @@ select:visited {
 }
 
 .pr3-tst-slider-wrapper .slick-arrow:hover {
-	background-color: #497efd;
+	background-color: #2484A1;
 }
 
 @media (max-width: 991.98px) {
