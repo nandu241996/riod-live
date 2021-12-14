@@ -105,6 +105,14 @@
     padding-left: 6% !important;
 }
 
-.detail-image-section, .sensor-table-section{
+.sensor-table-section{
     padding: 45px 0 !important;
+}
+
+.sensor-buy-link{
+    color: #2484A1 !important;
+}
+
+.sensor-buy-link:hover{
+    text-decoration: underline;
 }
