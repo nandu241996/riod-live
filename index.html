@@ -247,6 +247,7 @@
                                 data-frame_999="o:0;st:w;"
                                 data-frame_hover="c:#010148;bgc:linear-gradient(130deg, rgba(209,223,253,1) 0%, rgba(244,249,255,1) 100%);boc:#2782f9;bor:5px,5px,5px,5px;bos:solid;bow:2px,2px,2px,2px;sp:200;blu:0px;"
                                 style="z-index:11;background:linear-gradient(130deg, rgba(72,128,253,1) 0%, rgba(85,0,244,1) 100%);font-family:Lexend;text-transform:capitalize;font-weight:600;"
+                                data-link="agri_live_list.html"
                                 >Know More
                                 </rs-layer>
 
@@ -358,6 +359,7 @@
                                 data-frame_999="o:0;st:w;"
                                 data-frame_hover="c:#010148;bgc:linear-gradient(130deg, rgba(209,223,253,1) 0%, rgba(244,249,255,1) 100%);boc:#2782f9;bor:5px,5px,5px,5px;bos:solid;bow:2px,2px,2px,2px;sp:200;blu:0px;"
                                 style="z-index:11;background:linear-gradient(130deg, rgba(72,128,253,1) 0%, rgba(85,0,244,1) 100%);font-family:Lexend;text-transform:capitalize;font-weight:600;"
+                                data-link="machine_live_list.html"
                                 >Know More 
                                 </rs-layer>
 
@@ -470,6 +472,7 @@
                                 data-frame_999="o:0;st:w;"
                                 data-frame_hover="c:#010148;bgc:linear-gradient(130deg, rgba(209,223,253,1) 0%, rgba(244,249,255,1) 100%);boc:#2782f9;bor:5px,5px,5px,5px;bos:solid;bow:2px,2px,2px,2px;sp:200;blu:0px;"
                                 style="z-index:11;background:linear-gradient(130deg, rgba(72,128,253,1) 0%, rgba(85,0,244,1) 100%);font-family:Lexend;text-transform:capitalize;font-weight:600;"
+                                data-link="factory_live_list.html"
                                 >Know More 
                                 </rs-layer>
 
@@ -582,6 +585,7 @@
                                     data-frame_999="o:0;st:w;"
                                     data-frame_hover="c:#010148;bgc:linear-gradient(130deg, rgba(209,223,253,1) 0%, rgba(244,249,255,1) 100%);boc:#2782f9;bor:5px,5px,5px,5px;bos:solid;bow:2px,2px,2px,2px;sp:200;blu:0px;"
                                     style="z-index:11;background:linear-gradient(130deg, rgba(72,128,253,1) 0%, rgba(85,0,244,1) 100%);font-family:Lexend;text-transform:capitalize;font-weight:600;"
+                                    data-link="infra_live_list.html"
                                     >Know More 
                                 </rs-layer>
 
@@ -693,6 +697,7 @@
                                     data-frame_999="o:0;st:w;"
                                     data-frame_hover="c:#010148;bgc:linear-gradient(130deg, rgba(209,223,253,1) 0%, rgba(244,249,255,1) 100%);boc:#2782f9;bor:5px,5px,5px,5px;bos:solid;bow:2px,2px,2px,2px;sp:200;blu:0px;"
                                     style="z-index:11;background:linear-gradient(130deg, rgba(72,128,253,1) 0%, rgba(85,0,244,1) 100%);font-family:Lexend;text-transform:capitalize;font-weight:600;"
+                                    data-link="utility_live_list.html"
                                     >Know More 
                                 </rs-layer>
 
@@ -1725,6 +1730,19 @@
         <script>
             $( ".slider-secondary-btn" ).on( "click", function() {
                 window.open('https://calendly.com/riodlive/30min', "_blank")
+            });
+
+            $( ".slider-main-btn" ).on( "click", function() {
+                redirectPage = $(this).attr('data-link');
+                hostLink = window.location.host;
+                redirectPageLink = hostLink + '/' + redirectPage;
+                if(!hostLink){
+                    hostLink = window.location.href;
+                    linkArray = hostLink.split("/");
+                    linkArray[(linkArray.length)- 1] = redirectPage;
+                    redirectPageLink = linkArray.join("/")
+                }
+                window.open(redirectPageLink, "_self")
             });
 
             var revapi32,

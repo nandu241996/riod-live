@@ -91,3 +91,9 @@
 		width: 540px;
 	}
 }
+
+@media (max-width: 900px) {
+    .slider-main-btn, .slider-secondary-btn{
+        font-size: 8px !important;
+    }
+}
