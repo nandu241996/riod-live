@@ -98,3 +98,13 @@
         padding: 6px 8px !important;
     }
 }
+
+.sensor-table-header{
+    background-color: #2484A1;
+    color: #fff;
+    padding-left: 6% !important;
+}
+
+.detail-image-section, .sensor-table-section{
+    padding: 45px 0 !important;
+}
