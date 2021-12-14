@@ -1733,18 +1733,15 @@
             });
 
             $( ".slider-main-btn" ).on( "click", function() {
-                debugger;
                 redirectPage = $(this).attr('data-link');
                 hostLink = window.location.host;
                 redirectPageLink = '/' + redirectPage;
-                console.log("redirectPageLink-----",redirectPageLink)
-                console.log("hostLink-----",hostLink)
-                if(!hostLink){
-                    hostLink = window.location.href;
-                    linkArray = hostLink.split("/");
-                    linkArray[(linkArray.length)- 1] = redirectPage;
-                    redirectPageLink = linkArray.join("/")
-                }
+                // if(!hostLink){
+                //     hostLink = window.location.href;
+                //     linkArray = hostLink.split("/");
+                //     linkArray[(linkArray.length)- 1] = redirectPage;
+                //     redirectPageLink = linkArray.join("/")
+                // }
                 window.open(redirectPageLink, "_self")
             });
 
