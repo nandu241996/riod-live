@@ -32,17 +32,17 @@ TABLE OF CONTENTS:
 
 ::-moz-selection {
   color: #ffffff;
-  background-color: #2782f9;
+  background-color: #106381;
 }
 
 ::selection {
   color: #ffffff;
-  background-color: #2782f9;
+  background-color: #106381;
 }
 
 ::-moz-selection {
   color: #ffffff;
-  background-color: #2782f9;
+  background-color: #106381;
 }
 
 .container {
@@ -524,7 +524,7 @@ select:visited {
 }
 
 .pr1-navigation-menu ul li ul li a:hover {
-  background-color: #2782f9;
+  background-color: #106381;
   color: #ffffff;
   padding-left: 15px;
 }
@@ -544,7 +544,7 @@ select:visited {
 }
 .pr1-navigation-menu ul li a:hover,
 .pr1-navigation-menu ul li a.active {
-  color: #2782f9;
+  color: #106381;
 }
 
 .pr1-navigation-menu ul li:hover>ul {
@@ -591,7 +591,7 @@ select:visited {
   transform: translateY(-50%);
   width: 40px;
   height: 40px;
-  background-color: #2782f9;
+  background-color: #106381;
   color: #ffffff;
   font-size: 24px;
   text-align: center;
@@ -737,7 +737,7 @@ select:visited {
 .pr1-sidebar-btn {
   width: 40px;
   height: 40px;
-  background-color: #2782f9;
+  background-color: #106381;
   color: #ffffff;
   display: inline-block;
   line-height: 40px;
@@ -894,7 +894,7 @@ select:visited {
 }
 
 .pr1-work-column:hover .pr1-icon-container i {
-  background-color: #2782f9;
+  background-color: #106381;
   color: #ffffff;
   -webkit-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
@@ -902,7 +902,7 @@ select:visited {
 }
 
 .pr1-work-column:hover .pr1-readmore-btn a {
-  color: #2782f9;
+  color: #106381;
 }
 
 .pr1-work-column:hover .pr1-readmore-btn i {
@@ -944,7 +944,7 @@ select:visited {
 }
 
 .pr1-work-column .pr1-headline a:hover h5 {
-  color: #2782f9;
+  color: #106381;
 }
 
 .pr1-business-section {
@@ -983,10 +983,10 @@ select:visited {
   padding: 3px;
   border-radius: 6px;
   overflow: hidden;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#2782f9));
-  background-image: -webkit-linear-gradient(top, #ffffff, #2782f9);
-  background-image: -o-linear-gradient(top, #ffffff, #2782f9);
-  background-image: linear-gradient(to bottom, #ffffff, #2782f9);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#106381));
+  background-image: -webkit-linear-gradient(top, #ffffff, #106381);
+  background-image: -o-linear-gradient(top, #ffffff, #106381);
+  background-image: linear-gradient(to bottom, #ffffff, #106381);
 }
 
 @media (max-width: 991.98px) {
@@ -1070,7 +1070,7 @@ select:visited {
 }
 
 .pr1-business-right .pr1-business-column:hover .pr1-icon-container i {
-  background-color: #2782f9;
+  background-color: #106381;
   color: #ffffff;
   -webkit-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
@@ -1078,7 +1078,7 @@ select:visited {
 }
 
 .pr1-business-right .pr1-business-column:hover .pr1-readmore-btn a {
-  color: #2782f9;
+  color: #106381;
 }
 
 .pr1-business-right .pr1-business-column:hover .pr1-readmore-btn i {
@@ -1120,7 +1120,7 @@ select:visited {
 }
 
 .pr1-business-right .pr1-business-column .pr1-headline a:hover h5 {
-  color: #2782f9;
+  color: #106381;
 }
 
 .pr1-team-section {
@@ -1226,10 +1226,10 @@ select:visited {
   height: 115px;
   border-radius: 50%;
   overflow: hidden;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#2782f9));
-  background-image: -webkit-linear-gradient(top, #ffffff, #2782f9);
-  background-image: -o-linear-gradient(top, #ffffff, #2782f9);
-  background-image: linear-gradient(to bottom, #ffffff, #2782f9);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#106381));
+  background-image: -webkit-linear-gradient(top, #ffffff, #106381);
+  background-image: -o-linear-gradient(top, #ffffff, #106381);
+  background-image: linear-gradient(to bottom, #ffffff, #106381);
   padding: 2px;
   position: relative;
 }
@@ -1297,7 +1297,7 @@ select:visited {
 }
 
 .pr1-team-slider .pr1-team-single .pr1-team-slider-right .pr1-team-btn a:hover {
-  background-color: #2782f9;
+  background-color: #106381;
   border: 2px solid transparent;
   color: #ffffff;
 }
@@ -1340,10 +1340,10 @@ select:visited {
 }
 
 .pr1-pf-column .pr1-img-container {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#2782f9));
-  background-image: -webkit-linear-gradient(top, #ffffff, #2782f9);
-  background-image: -o-linear-gradient(top, #ffffff, #2782f9);
-  background-image: linear-gradient(to bottom, #ffffff, #2782f9);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#106381));
+  background-image: -webkit-linear-gradient(top, #ffffff, #106381);
+  background-image: -o-linear-gradient(top, #ffffff, #106381);
+  background-image: linear-gradient(to bottom, #ffffff, #106381);
   padding: 2px;
   border-radius: 6px;
   overflow: hidden;
@@ -1468,7 +1468,7 @@ select:visited {
 .pr1-clients-slider .pr1-client-single span.quote-icon {
   width: 50px;
   height: 50px;
-  border: 2px solid #2782f9;
+  border: 2px solid #106381;
   border-radius: 50%;
   background-color: #ffffff;
   color: #010148;
@@ -1490,7 +1490,7 @@ select:visited {
 .pr1-clients-slider .pr1-client-single .pr1-pera-txt {
   padding: 30px 30px 30px 20px;
   background-color: #ffffff;
-  border: 2px solid #2782f9;
+  border: 2px solid #106381;
   border-radius: 5px;
 }
 
@@ -1509,7 +1509,7 @@ select:visited {
 .pr1-clients-slider .pr1-client-single .pr1-clients-thumb {
   width: 100px;
   height: 100px;
-  background-color: #2782f9;
+  background-color: #106381;
   padding: 2px;
   overflow: hidden;
   border-radius: 5px;
@@ -1615,7 +1615,7 @@ select:visited {
 }
 
 .pr1-blog-column .pr1-blog-title h5:hover {
-  color: #2782f9;
+  color: #106381;
 }
 
 .pr1-blog-column .pr1-readmore-btn a {
@@ -1627,7 +1627,7 @@ select:visited {
 }
 
 .pr1-blog-column .pr1-readmore-btn a:hover {
-  background-color: #2782f9;
+  background-color: #106381;
   border: 2px solid transparent;
   color: #ffffff;
 }
@@ -1681,7 +1681,7 @@ select:visited {
   border: 0;
   width: 65px;
   height: 100%;
-  background-color: #2782f9;
+  background-color: #106381;
   color: #fff;
   font-size: 25px;
   text-align: center;
@@ -1717,7 +1717,7 @@ select:visited {
 }
 
 .pr1-footer-contents .pr1-footer-widget .pr1-footer-btn a:hover {
-  background-color: #2782f9;
+  background-color: #106381;
 }
 
 .pr1-footer-contents .pr1-footer-widget .pr1-headline {
@@ -1867,7 +1867,7 @@ select:visited {
 }
 
 .pr1-pricing-tab .tab-content .pr1-tab-column:hover .pr1-tab-icon i {
-  background-color: #2782f9;
+  background-color: #106381;
   color: #ffffff;
 }
 
@@ -1953,7 +1953,7 @@ select:visited {
 }
 
 .pr1-pricing-tab .tab-content .pr1-tab-column .pr1-tab-btn a:hover {
-  background-color: #2782f9;
-  border: 2px solid #2782f9;
+  background-color: #106381;
+  border: 2px solid #106381;
   color: #ffffff;
 }
