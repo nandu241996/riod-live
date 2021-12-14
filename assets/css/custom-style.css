@@ -116,3 +116,7 @@
 .sensor-buy-link:hover{
     text-decoration: underline;
 }
+
+.pr3-info-bar-right p {
+	color: #fff !important;
+}
