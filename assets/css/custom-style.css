@@ -120,3 +120,7 @@
 .pr3-info-bar-right p {
 	color: #fff !important;
 }
+
+.custom-mh{
+    min-height: 100px;
+}
