@@ -518,12 +518,12 @@ select:visited {
 .pr3-navigation-menu {
 	padding-left: 15px;
 	display: inline-block;
-	margin-right: 60px;
+	margin-right: 0px;
 }
 
 @media (max-width: 1199.98px) {
 	.pr3-navigation-menu {
-		margin-right: 30px;
+		margin-right: 0px;
 	}
 }
 

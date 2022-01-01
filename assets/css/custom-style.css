@@ -124,3 +124,7 @@
 .custom-mh{
     min-height: 100px;
 }
+
+.bulletins{
+    list-style: inside;
+}
