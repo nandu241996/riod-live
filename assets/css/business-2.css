@@ -988,6 +988,7 @@ select:visited {
 }
 
 @media (min-width: 1024px) and (max-width: 1600px) {
+	#slider-32-slide-100-layer-10 img,
 	#slider-32-slide-98-layer-10 img,
 	#slider-32-slide-99-layer-10 img,
 	#slider-32-slide-95-layer-10 img,
