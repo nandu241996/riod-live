@@ -134,3 +134,25 @@
     width: 137px;
     height: 85px;
 }
+
+.product-section {
+	padding: 10px 0;
+	background-color: #f6f7f9;
+	position: relative;
+}
+
+@media (max-width: 991.98px) {
+	.product-section {
+		padding-bottom: 70px;
+	}
+}
+
+.product-section .pr3-object-1 {
+	width: 420px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	-webkit-animation: 6s pr3_object_animation linear infinite;
+	animation: 6s pr3_object_animation linear infinite;
+}
