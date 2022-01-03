@@ -157,7 +157,8 @@
   animation: 6s pr3_object_animation linear infinite;
 }
 
-.expand-arrow {
+.expand-arrow,
+.shrink-arrow {
   color: #6ba4bb;
 }
 
@@ -168,6 +169,6 @@
   padding-right: 2%;
 }
 
-.faq-head{
-    padding-left: 15%;
+.faq-head {
+  padding-left: 15%;
 }
