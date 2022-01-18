@@ -1,445 +1,503 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Required Meta Tags -->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <!-- Page Title -->
-        <title>
-            Cargo Monitoring
-        </title>
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <!-- add icon in title -->
-        <link rel="icon" href="https://cdn.shopify.com/s/files/1/0598/3001/0031/files/favicon-32x32_32x32.png?v=1631080859" type="image/x-icon">
+    <!-- Page Title -->
+    <title>
+        Cargo Monitoring
+    </title>
 
-        <!-- CSS Files -->
-        <link rel="stylesheet" href="assets/css/animate.css">
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/fontawesome-all.css">
-        <link rel="stylesheet" href="assets/css/flaticon-8.css">
-        <link rel="stylesheet" href="assets/css/rs6.css">
-        <link rel="stylesheet" href="assets/css/slick.css">
-        <link rel="stylesheet" href="assets/css/business-1.css">
-        <link rel="stylesheet" href="assets/css/business-2.css">
-        <link rel="stylesheet" href="assets/css/custom-style.css">
+    <!-- add icon in title -->
+    <link rel="icon" href="https://cdn.shopify.com/s/files/1/0598/3001/0031/files/favicon-32x32_32x32.png?v=1631080859"
+        type="image/x-icon">
 
-        <style>
-            .solution-item{
-                cursor: pointer;
-            }
-        </style>
-    </head>
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.css">
+    <link rel="stylesheet" href="assets/css/flaticon-8.css">
+    <link rel="stylesheet" href="assets/css/rs6.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/business-1.css">
+    <link rel="stylesheet" href="assets/css/business-2.css">
+    <link rel="stylesheet" href="assets/css/custom-style.css">
 
-    <body class="pr3-body" data-spy="scroll" data-target=".pr3-navigation-menu" data-offset="80">
+    <style>
+        .solution-item {
+            cursor: pointer;
+        }
+    </style>
+</head>
 
-        <!-- Preloader-->
-        <div class="loading-preloader">
-            <div id="loading-preloader">
-                <div class="line_shape"></div>
-                <div class="line_shape"></div>
-                <div class="line_shape"></div>
-                <div class="line_shape"></div>
-                <div class="line_shape"></div>
-                <div class="line_shape"></div>
-                <div class="line_shape"></div>
-                <div class="line_shape"></div>
-                <div class="line_shape"></div>
-                <div class="line_shape"></div>
-            </div>
+<body class="pr3-body" data-spy="scroll" data-target=".pr3-navigation-menu" data-offset="80">
+
+    <!-- Preloader-->
+    <div class="loading-preloader">
+        <div id="loading-preloader">
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
         </div>
-        <!-- Preloader End -->
+    </div>
+    <!-- Preloader End -->
 
-        <!-- ScrollTop Button -->
-        <div class="sb-scrollup">
-            <a href="#" id="scrollup" class="pr1-scroll-top text-center"><i class="fas fa-angle-up"></i></a>
-        </div>
+    <!-- ScrollTop Button -->
+    <div class="sb-scrollup">
+        <a href="#" id="scrollup" class="pr1-scroll-top text-center"><i class="fas fa-angle-up"></i></a>
+    </div>
 
 
-        <!-- Header Section -->
-        <header class="pr3-header-section">
-            <div class="pr3-info-bar-container">
-                <div class="container">
-                    <div class="pr3-info-bar">
-                        <div class="row align-items-center">
-                            <div class="col-lg-8 col-md-7">
-                                <div class="pr3-info-bar-left pr3-pera-txt">
-                                    <p>Kochi, India</p>
-                                </div>
+    <!-- Header Section -->
+    <header class="pr3-header-section">
+        <div class="pr3-info-bar-container">
+            <div class="container">
+                <div class="pr3-info-bar">
+                    <div class="row align-items-center">
+                        <div class="col-lg-8 col-md-7">
+                            <div class="pr3-info-bar-left pr3-pera-txt">
+                                <p>Kochi, India</p>
                             </div>
-                            <div class="col-lg-4 col-md-5">
-                                <div class="pr3-info-bar-right pr3-pera-txt">
-                                    <p>hello[@]riod.in</p>
-                                </div>
+                        </div>
+                        <div class="col-lg-4 col-md-5">
+                            <div class="pr3-info-bar-right pr3-pera-txt">
+                                <p>hello[@]riod.in</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="pr3-header-wrapper">
+        </div>
+        <div class="container">
+            <div class="pr3-header-wrapper">
 
-                    <!-- Desktop Menu -->
-                    <div class="row align-items-center">
-                        <div class="col-lg-1"> 
-                            <a href="index.html" class="pr3-header-logo"><img src="assets/img/logo/riod_live.gif" alt=""></a>
-                        </div>
-                        <div class="col-lg-11 pr3-desktop-menu">
-                            <div class="pr3-navigation-menu">
-                                <nav>
-                                    <ul>
-                                        <li><a class="nav-link" href="index.html">Home</a> </li>
-                                        <li><a class="nav-link" href="solutions.html">Solutions</a></li>
-                                        <li><a class="nav-link" href="products.html">Products</a></li>
-                                        <li><a class="nav-link" href="https://shop.riod.in/" target="blank">Shop</a></li>
-                                         <li><a class="nav-link" href="partnership.html">Become our partner</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                            <div class="pr3-header-right">
-                                <a href="contact.html" class="pr3-git-btn">Contact Us</a>
-                            </div>
-                        </div>
+                <!-- Desktop Menu -->
+                <div class="row align-items-center">
+                    <div class="col-lg-1">
+                        <a href="index.html" class="pr3-header-logo"><img src="assets/img/logo/riod_live.gif"
+                                alt=""></a>
                     </div>
-                    <!-- Desktop Menu End -->
-
-                    <!-- Mobile Menu -->
-                    <span class="pr3-mobile-menu-open"><i class="fas fa-bars"></i></span>
-                    <div class="row pr3-mobile-menu">
-                        <nav>
-                            <span class="pr3-mobile-menu-close"><i class="fas fa-times"></i></span>
-                            <a href="index.html" class="pr3-mobile-logo"><img src="assets/img/logo/riod_live.gif" alt=""></a>
+                    <div class="col-lg-11 pr3-desktop-menu">
+                        <div class="pr3-navigation-menu">
+                            <nav>
                                 <ul>
                                     <li><a class="nav-link" href="index.html">Home</a> </li>
                                     <li><a class="nav-link" href="solutions.html">Solutions</a></li>
                                     <li><a class="nav-link" href="products.html">Products</a></li>
                                     <li><a class="nav-link" href="https://shop.riod.in/" target="blank">Shop</a></li>
-                                     <li><a class="nav-link" href="partnership.html">Become our partner</a></li>
+                                    <li><a class="nav-link" href="partnership.html">Become our partner</a></li>
                                 </ul>
-                        </nav>
-                    </div>
-                    <!-- Mobile Menu End -->
-                    
-                </div>
-            </div>
-        </header>
-        <!-- End of Header Section -->
-
-        <!-- Solution Item List Section -->
-        <section id="sb-pricing" class="pr3-pricing-section">
-            <span class="pr3-object-1"><img src="assets/img/business-2/pricing/object-1.png" alt=""></span>
-            <div class="container">
-                <div class="pr3-pricing-contents">
-                    <span class="pr3-object-2"><img src="assets/img/business-2/pricing/object-2.png" alt=""></span>
-
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12">
-                            <div class="text-left data-wow-delay="0.2s">
-                                <a href="activity_live_list.html">
-                                    <span class="custom-back-btn" title="Back">
-                                        <i class="fa fa-arrow-left"></i>
-                                    </span>
-                                </a>
-                            </div>
+                            </nav>
                         </div>
-                    </div>
-                    
-                    <div class="row mt-3">
-                        <div class="col-lg-12 col-md-12 col-sm-12">
-                            <div class="pr3-pricing-column wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="pr3-headline">
-                                    <h4>Cargo Monitoring</h4>
-                                </div>
-                                <div class="pr3-pricing-features text-left">
-                                    <p class="riod-small-font-color">
-                                        Cargo monitoring with smart IoT systems will help logistic manager to better operate and maintain the standards of the goods transported. 
-                                        With our set of sensors and technology, we can provide the necessary parameters in real-time and also view them with our customised dashboard at your fingertips. 
-                                        These system will help optimise and take the best decisions possible.
-                                    </p>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4">
-                                        <a href="https://shop.riod.in/" target="blank">
-                                            <button class="btn btn-primary bw-full">Buy Sensors </button>
-                                        </a> &nbsp;
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-4">
-                                        <a href="https://calendly.com/riodlive/30min" target="blank">
-                                            <button class="btn btn-primary bw-full">
-                                                Request Demo
-                                            </button> &nbsp;
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-4">
-                                        <a href="contact.html#contactFormDiv">
-                                            <button class="btn btn-primary bw-full" type="button">Get our software</button>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="pr3-icon-wrapper">
-                                    <img src="assets/img/activity_live-items/Activity Live_Cargo Monitoring.gif">
-                                </div>
-                            </div>
+                        <div class="pr3-header-right">
+                            <a href="contact.html" class="pr3-git-btn">Contact Us</a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- base image section ends  -->
+                <!-- Desktop Menu End -->
 
-        <!-- design table section starts  -->
-        <section id="" class="pr3-pricing-section sensor-table-section">
-            <span class="pr3-object-1"><img src="assets/img/business-2/pricing/object-1.png" alt=""></span>
-            <div class="container">
-                <div class="pr3-pricing-contents">
-                    <span class="pr3-object-2"><img src="assets/img/business-2/pricing/object-2.png" alt=""></span>
-                 
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12">
-                            <div class="pr3-pricing-column wow fadeInUp animated animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">
-                                <table class="table table-striped">
-                                    <thead>
-                                        <th colspan="3" class="text-left sensor-table-header">SENSOR LIST</th>
-                                    </thead>
-                                    <!-- table row starts -->
-                                    <tr>
-                                        <td>Sensor 1</td>
-                                        <td>
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <!-- change the below src value and point to the required image source -->
-                                                    <img src="assets/img/business-2/pricing/object-2.png" alt="" style="height: 50px; width: 50px;">
-                                                    No description available
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <a class="sensor-buy-link" href="https://shop.riod.in/" target="blank">Buy Now</a>
-                                        </td>
-                                    </tr>
-                                    <!-- table row ends -->
-
-                                    <!-- table row starts -->
-                                    <tr>
-                                        <td>Sensor 2</td>
-                                        <td>
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <!-- change the below src value and point to the required image source -->
-                                                    <img src="assets/img/business-2/pricing/object-2.png" alt="" style="height: 50px; width: 50px;">
-                                                    No description available
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <a class="sensor-buy-link" href="https://shop.riod.in/" target="blank">Buy Now</a>
-                                        </td>
-                                    </tr>
-                                    <!-- table row ends -->
-
-                                    <!-- table row starts -->
-                                    <tr>
-                                        <td>Sensor 3</td>
-                                        <td>
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <!-- change the below src value and point to the required image source -->
-                                                    <img src="assets/img/business-2/pricing/object-2.png" alt="" style="height: 50px; width: 50px;">
-                                                    No description available
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <a class="sensor-buy-link" href="https://shop.riod.in/" target="blank">Buy Now</a>
-                                        </td>
-                                    </tr>
-                                    <!-- table row ends -->
-                                </table>
-                            </div>
-                        </div>
-                    </div>
+                <!-- Mobile Menu -->
+                <span class="pr3-mobile-menu-open"><i class="fas fa-bars"></i></span>
+                <div class="row pr3-mobile-menu">
+                    <nav>
+                        <span class="pr3-mobile-menu-close"><i class="fas fa-times"></i></span>
+                        <a href="index.html" class="pr3-mobile-logo"><img src="assets/img/logo/riod_live.gif"
+                                alt=""></a>
+                        <ul>
+                            <li><a class="nav-link" href="index.html">Home</a> </li>
+                            <li><a class="nav-link" href="solutions.html">Solutions</a></li>
+                            <li><a class="nav-link" href="products.html">Products</a></li>
+                            <li><a class="nav-link" href="https://shop.riod.in/" target="blank">Shop</a></li>
+                            <li><a class="nav-link" href="partnership.html">Become our partner</a></li>
+                            <li><a class="nav-link" href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
                 </div>
-            </div>
-        </section>
-        <!-- design table section ends  -->
-        <!-- Solution Item List Section  Ends-->
+                <!-- Mobile Menu End -->
 
-        
-        <!-- Footer Section -->
-        <footer class="pr3-footer-section">
-            <div class="container">
+            </div>
+        </div>
+    </header>
+    <!-- End of Header Section -->
+
+    <!-- Solution Item List Section -->
+    <section id="sb-pricing" class="pr3-pricing-section">
+        <span class="pr3-object-1"><img src="assets/img/business-2/pricing/object-1.png" alt=""></span>
+        <div class="container">
+            <div class="pr3-pricing-contents">
+                <span class="pr3-object-2"><img src="assets/img/business-2/pricing/object-2.png" alt=""></span>
+
                 <div class="row">
-                    <div class="col-lg-6 offset-lg-3">
-                        <div class="pr3-footer-logo wow fadeInUp">
-                            <a href="#"><img src="assets/img/logo/riod_live.gif" alt=""></a>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="text-left data-wow-delay=" 0.2s">
+                            <a href="activity_live_list.html">
+                                <span class="custom-back-btn" title="Back">
+                                    <i class="fa fa-arrow-left"></i>
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="pr3-footer-content">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="pr3-footer-widget wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="pr3-headline">
-                                    <h4>Navigation</h4>
-                                    <div class="pr3-footer-nav">
-                                        <ul>
-                                            <li><a href="index.html">Home</a> </li>
-                                            <li><a href="solutions.html">Solutions</a></li>
-                                            <li><a href="products.html">Products</a></li>
-                                            <li><a href="https://shop.riod.in/" target="blank">Shop</a></li>
-                                            <li><a href="contact.html">Contact Us</a></li>
-                                        </ul>
-                                    </div>
+
+                <div class="row mt-3">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="pr3-pricing-column wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="pr3-headline">
+                                <h4>Cargo Monitoring</h4>
+                            </div>
+                            <div class="pr3-pricing-features text-left">
+                                <p class="riod-small-font-color">
+                                    Cargo monitoring with smart IoT systems will help logistic manager to better operate
+                                    and maintain the standards of the goods transported.
+                                    With our set of sensors and technology, we can provide the necessary parameters in
+                                    real-time and also view them with our customised dashboard at your fingertips.
+                                    These system will help optimise and take the best decisions possible.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <a href="https://shop.riod.in/" target="blank">
+                                        <button class="btn btn-primary bw-full">Buy Sensors </button>
+                                    </a> &nbsp;
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <a href="https://calendly.com/riodlive/30min" target="blank">
+                                        <button class="btn btn-primary bw-full">
+                                            Request Demo
+                                        </button> &nbsp;
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <a href="contact.html#contactFormDiv">
+                                        <button class="btn btn-primary bw-full" type="button">Get our software</button>
+                                    </a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="pr3-footer-widget wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="pr3-headline">
-                                    <h4>Solutions</h4>
-                                    <div class="pr3-footer-nav">
-                                        <ul>
-                                            <li><a href="agri_live_list.html">Agri-Live</a></li>
-                                            <li><a href="machine_live_list.html">Machine-Live</a></li>
-                                            <li><a href="factory_live_list.html">Industry-Live</a></li>
-                                            <li><a href="infra_live_list.html">Infra-Live</a></li>
-                                            <li><a href="utility_live_list.html">Utility-Live</a></li> <li><a href="activity_live_list.html">Activity-Live</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="pr3-footer-widget wow fadeInUp" data-wow-delay="0.3s">
-                                <div class="pr3-headline">
-                                    <h4>Services</h4>
-                                    <div class="pr3-footer-nav">
-                                        <ul>
-                                            <li><a href="https://riodlab.com/" target="_blank">RIOD Lab</a></li>
-                                            <li><a href="https://riod.in/" target="_blank">RIOD India</a></li>
-                                            <li><a href="https://shop.riod.in/" target="_blank">RIOD Store</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="pr3-footer-widget wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="pr3-headline">
-                                    <h4>Contact</h4>
-                                    <div class="pr3-footer-contact">
-                                        <ul>
-                                            <li><i class="fas fa-envelope"></i>sales@riod.in</li>
-                                            <li><i class="fas fa-phone"></i> +91 73069 10508</li>
-                                            <li>
-                                                <i class="fas fa-home"></i>
-                                                Kalleli Towers Nedumbassery, 
-                                                Vengoor, Angamaly, Kerala 683572
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                            <div class="pr3-icon-wrapper">
+                                <img src="assets/img/activity_live-items/Activity Live_Cargo Monitoring.gif">
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="pr3-footer-spacer">
-                    <hr>
                 </div>
             </div>
-        </footer>
-        <!-- Footer Section End -->
+        </div>
+    </section>
+    <!-- base image section ends  -->
 
-        
-        <!-- Javascript Files -->
-        <script src="assets/js/jquery.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/slick.js"></script>
-        <script src="assets/js/jquery.counterup.min.js"></script>
-        <script src="assets/js/waypoints.min.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/rbtools.min.js"></script>
-        <script src="assets/js/rs6.min.js"></script>
-        <script src="assets/js/parallax-scroll.js"></script>
-        <script src="assets/js/business-1.js"></script>
-        <script src="assets/js/business-2.js"></script>
-        <!-- End Javascript Files -->
+    <!-- design table section starts  -->
+    <section id="" class="pr3-pricing-section sensor-table-section">
+        <span class="pr3-object-1"><img src="assets/img/business-2/pricing/object-1.png" alt=""></span>
+        <div class="container">
+            <div class="pr3-pricing-contents">
+                <span class="pr3-object-2"><img src="assets/img/business-2/pricing/object-2.png" alt=""></span>
 
-        <!-- JS scripts -->
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="pr3-pricing-column wow fadeInUp animated animated" data-wow-delay="0.2s"
+                            style="visibility: visible; animation-delay: 0.2s;">
+                            <table class="table table-striped">
+                                <thead>
+                                    <th colspan="3" class="text-left sensor-table-header">SENSOR LIST</th>
+                                </thead>
+                                <!-- table row starts -->
+                                <tr>
+                                    <td>Sensor 1</td>
+                                    <td>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <!-- change the below src value and point to the required image source -->
+                                                <img src="assets/img/business-2/pricing/object-2.png" alt=""
+                                                    style="height: 50px; width: 50px;">
+                                                No description available
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <a class="sensor-buy-link" href="https://shop.riod.in/" target="blank">Buy
+                                            Now</a>
+                                    </td>
+                                </tr>
+                                <!-- table row ends -->
 
-        <script>
+                                <!-- table row starts -->
+                                <tr>
+                                    <td>Sensor 2</td>
+                                    <td>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <!-- change the below src value and point to the required image source -->
+                                                <img src="assets/img/business-2/pricing/object-2.png" alt=""
+                                                    style="height: 50px; width: 50px;">
+                                                No description available
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <a class="sensor-buy-link" href="https://shop.riod.in/" target="blank">Buy
+                                            Now</a>
+                                    </td>
+                                </tr>
+                                <!-- table row ends -->
 
-            var revapi32,
+                                <!-- table row starts -->
+                                <tr>
+                                    <td>Sensor 3</td>
+                                    <td>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <!-- change the below src value and point to the required image source -->
+                                                <img src="assets/img/business-2/pricing/object-2.png" alt=""
+                                                    style="height: 50px; width: 50px;">
+                                                No description available
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <a class="sensor-buy-link" href="https://shop.riod.in/" target="blank">Buy
+                                            Now</a>
+                                    </td>
+                                </tr>
+                                <!-- table row ends -->
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- design table section ends  -->
+    <!-- Solution Item List Section  Ends-->
+
+
+    <!-- Footer Section -->
+    <footer class="pr3-footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="pr3-footer-logo wow fadeInUp">
+                        <a href="#"><img src="assets/img/logo/riod_live.gif" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="pr3-footer-content">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="pr3-footer-widget wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="pr3-headline">
+                                <h4>Navigation</h4>
+                                <div class="pr3-footer-nav">
+                                    <ul>
+                                        <li><a href="index.html">Home</a> </li>
+                                        <li><a href="solutions.html">Solutions</a></li>
+                                        <li><a href="products.html">Products</a></li>
+                                        <li><a href="https://shop.riod.in/" target="blank">Shop</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="pr3-footer-widget wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="pr3-headline">
+                                <h4>Solutions</h4>
+                                <div class="pr3-footer-nav">
+                                    <ul>
+                                        <li><a href="agri_live_list.html">Agri-Live</a></li>
+                                        <li><a href="machine_live_list.html">Machine-Live</a></li>
+                                        <li><a href="factory_live_list.html">Industry-Live</a></li>
+                                        <li><a href="infra_live_list.html">Infra-Live</a></li>
+                                        <li><a href="utility_live_list.html">Utility-Live</a></li>
+                                        <li><a href="activity_live_list.html">Activity-Live</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="pr3-footer-widget wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="pr3-headline">
+                                <h4>Services</h4>
+                                <div class="pr3-footer-nav">
+                                    <ul>
+                                        <li><a href="https://riodlab.com/" target="_blank">RIOD Lab</a></li>
+                                        <li><a href="https://riod.in/" target="_blank">RIOD India</a></li>
+                                        <li><a href="https://shop.riod.in/" target="_blank">RIOD Store</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="pr3-footer-widget wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="pr3-headline">
+                                <h4>Contact</h4>
+                                <div class="pr3-footer-contact">
+                                    <ul>
+                                        <li><i class="fas fa-envelope"></i>sales@riod.in</li>
+                                        <li><i class="fas fa-phone"></i> +91 73069 10508</li>
+                                        <li>
+                                            <i class="fas fa-home"></i>
+                                            Kalleli Towers Nedumbassery,
+                                            Vengoor, Angamaly, Kerala 683572
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pr3-footer-spacer">
+                <hr>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+
+    <!-- Javascript Files -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/rbtools.min.js"></script>
+    <script src="assets/js/rs6.min.js"></script>
+    <script src="assets/js/parallax-scroll.js"></script>
+    <script src="assets/js/business-1.js"></script>
+    <script src="assets/js/business-2.js"></script>
+    <!-- End Javascript Files -->
+
+    <!-- JS scripts -->
+
+    <script>
+
+        var revapi32,
             tpj;
-            function revinit_revslider321() {
-                jQuery(function() {
-                    tpj = jQuery;
-                    revapi32 = tpj("#rev_slider_32_1");
-                    if(revapi32==undefined || revapi32.revolution == undefined){
-                        revslider_showDoubleJqueryError("rev_slider_32_1");
-                    }else{
-                        revapi32.revolution({
-                            DPR:"dpr",
-                            sliderLayout:"fullwidth",
-                            visibilityLevels:"1240,1024,778,480",
-                            gridwidth:1240,
-                            gridheight:850,
-                            perspective:600,
-                            perspectiveType:"global",
-                            editorheight:"850,768,960,720",
-                            responsiveLevels:"1240,1024,778,480",
-                            progressBar:{disableProgressBar:true},
-                            navigation: {
-                                wheelCallDelay:1000,
-                                onHoverStop:false,
-                                bullets: {
-                                    enable:true,
-                                    tmp:"<span class=\"tp-bullet-inner\"></span>",
-                                    style:"uranus",
-                                    hide_onmobile:true,
-                                    hide_under:"576px",
-                                    hide_onleave:true,
-                                    v_offset:110,
-                                    space:10
-                                }
-                            },
-                            fallbacks: {
-                                allowHTML5AutoPlayOnAndroid:true
-                            },
-                        });
-                    }
+        function revinit_revslider321() {
+            jQuery(function () {
+                tpj = jQuery;
+                revapi32 = tpj("#rev_slider_32_1");
+                if (revapi32 == undefined || revapi32.revolution == undefined) {
+                    revslider_showDoubleJqueryError("rev_slider_32_1");
+                } else {
+                    revapi32.revolution({
+                        DPR: "dpr",
+                        sliderLayout: "fullwidth",
+                        visibilityLevels: "1240,1024,778,480",
+                        gridwidth: 1240,
+                        gridheight: 850,
+                        perspective: 600,
+                        perspectiveType: "global",
+                        editorheight: "850,768,960,720",
+                        responsiveLevels: "1240,1024,778,480",
+                        progressBar: { disableProgressBar: true },
+                        navigation: {
+                            wheelCallDelay: 1000,
+                            onHoverStop: false,
+                            bullets: {
+                                enable: true,
+                                tmp: "<span class=\"tp-bullet-inner\"></span>",
+                                style: "uranus",
+                                hide_onmobile: true,
+                                hide_under: "576px",
+                                hide_onleave: true,
+                                v_offset: 110,
+                                space: 10
+                            }
+                        },
+                        fallbacks: {
+                            allowHTML5AutoPlayOnAndroid: true
+                        },
+                    });
+                }
 
-                });
-            }
-            var once_revslider321 = false;
-            jQuery(window).on("load", function(){
-                revinit_revslider321();
             });
+        }
+        var once_revslider321 = false;
+        jQuery(window).on("load", function () {
+            revinit_revslider321();
+        });
 
-        </script>
+    </script>
 
-        <!-- JS script for showing respective item image in modal -->
-        <script>
-            $(".solution-item").on('click', function (e) {
-                imageLink = $(this).attr('data-solution-image');
-                $("#solutionImage").attr("src", imageLink)
-            })
-            
-        </script>
-        <!-- End JS script for showing respective item image in modal -->
+    <!-- JS script for showing respective item image in modal -->
+    <script>
+        $(".solution-item").on('click', function (e) {
+            imageLink = $(this).attr('data-solution-image');
+            $("#solutionImage").attr("src", imageLink)
+        })
 
-        <!-- End JS scripts -->
+    </script>
+    <!-- End JS script for showing respective item image in modal -->
 
-
-        <style type="text/css">
-        #rev_slider_32_1[data-slideactive="rs-55"] .hades .tp-thumb:hover .tp-thumb-img-wrap,#rev_slider_32_1[data-slideactive="rs-55"] .hades .tp-thumb.selected .tp-thumb-img-wrap{background:linear-gradient(to bottom,green 0%,#005ce6 100%) !important}
-        </style>
-
-        <style type="text/css">
-        #rev_slider_32_1_wrapper .uranus .tp-bullet{border-radius:50%; box-shadow:0 0 0 2px transparent; -webkit-transition:box-shadow 0.3s ease; transition:box-shadow 0.3s ease; background:transparent; width:8px; height:8px}#rev_slider_32_1_wrapper .uranus .tp-bullet.selected,#rev_slider_32_1_wrapper .uranus .tp-bullet:hover{box-shadow:0 0 0 2px #1a0b60; border:none; border-radius:50%; background:transparent}#rev_slider_32_1_wrapper .uranus .tp-bullet-inner{-webkit-transition:background-color 0.3s ease,-webkit-transform 0.3s ease; transition:background-color 0.3s ease,transform 0.3s ease; top:0; left:0; width:100%; height:100%; outline:none; border-radius:50%; background-color:transparent; background-color:#1a0b60; text-indent:-999em; cursor:pointer; position:absolute}#rev_slider_32_1_wrapper .uranus .tp-bullet.selected .tp-bullet-inner,#rev_slider_32_1_wrapper .uranus .tp-bullet:hover .tp-bullet-inner{transform:scale(0.4); -webkit-transform:scale(0.4); background-color:#1a0b60}
-        </style>
+    <!-- End JS scripts -->
 
 
-    </body>
+    <style type="text/css">
+        #rev_slider_32_1[data-slideactive="rs-55"] .hades .tp-thumb:hover .tp-thumb-img-wrap,
+        #rev_slider_32_1[data-slideactive="rs-55"] .hades .tp-thumb.selected .tp-thumb-img-wrap {
+            background: linear-gradient(to bottom, green 0%, #005ce6 100%) !important
+        }
+    </style>
+
+    <style type="text/css">
+        #rev_slider_32_1_wrapper .uranus .tp-bullet {
+            border-radius: 50%;
+            box-shadow: 0 0 0 2px transparent;
+            -webkit-transition: box-shadow 0.3s ease;
+            transition: box-shadow 0.3s ease;
+            background: transparent;
+            width: 8px;
+            height: 8px
+        }
+
+        #rev_slider_32_1_wrapper .uranus .tp-bullet.selected,
+        #rev_slider_32_1_wrapper .uranus .tp-bullet:hover {
+            box-shadow: 0 0 0 2px #1a0b60;
+            border: none;
+            border-radius: 50%;
+            background: transparent
+        }
+
+        #rev_slider_32_1_wrapper .uranus .tp-bullet-inner {
+            -webkit-transition: background-color 0.3s ease, -webkit-transform 0.3s ease;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            outline: none;
+            border-radius: 50%;
+            background-color: transparent;
+            background-color: #1a0b60;
+            text-indent: -999em;
+            cursor: pointer;
+            position: absolute
+        }
+
+        #rev_slider_32_1_wrapper .uranus .tp-bullet.selected .tp-bullet-inner,
+        #rev_slider_32_1_wrapper .uranus .tp-bullet:hover .tp-bullet-inner {
+            transform: scale(0.4);
+            -webkit-transform: scale(0.4);
+            background-color: #1a0b60
+        }
+    </style>
+
+
+</body>
+
 </html>
